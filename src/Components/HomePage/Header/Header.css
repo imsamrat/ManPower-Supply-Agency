@@ -1,0 +1,53 @@
+img.logoImg {
+	width: 12rem;
+}
+.nav-header {
+	padding: 0 60px;
+	background-color: #5D11E4;
+}
+.navbar-nav a {
+	margin: 0rem 1.3rem;
+	margin-top: 1rem;
+	text-decoration: none !important;
+	color: #fff !important;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.active {
+	border-bottom: 3px solid #7ab259;
+	font-weight: 700;
+}
+
+a.loginBtn {
+	background-color: #111430;
+	color: white !important;
+	padding: 10px 45px;
+	border-radius: 6px;
+	margin-right: 0rem;
+	transition: all 0.5s ease;
+}
+a.loginBtn:hover {
+	background: #7ab259;
+	box-shadow: 0 8px 6px -6px #111430;
+}
+button.logout {
+	background-color: #111430;
+	color: white !important;
+	padding: 10px 40px;
+	border-radius: 6px;
+	text-decoration: none !important;
+	border: none;
+	position: relative;
+	font-size: 14px;
+	top: 0.5rem;
+	outline: none;
+	margin-left: 1rem;
+	transition: all 0.5s ease;
+}
+button.logout:hover {
+	background: #7ab259;
+}
+button.logout:focus {
+	outline: none;
+}
